@@ -1,3 +1,34 @@
 * {
     font-family: "Montserrat", sans-serif;
 }
+
+.container {
+    margin: auto 4em;
+    min-width: 32em;
+}
+
+.navbar {
+    display: flex;
+    height: 100px;
+}
+
+.navbar img {
+    width: auto;
+    height: 100px;
+}
+
+.nav {
+    float: right;  
+    width: 100%;  
+}
+
+.nav li {
+    text-align: right;
+    margin: auto 0.5em;
+    display: inline;
+    float: right;
+}
+
+.background-color {
+    background-color: #0A8E84;
+}
