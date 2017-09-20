@@ -1,15 +1,17 @@
 * {
     font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
 }
 
 .container {
-    margin: auto 4em;
+    margin: 1em 4em;
     min-width: 32em;
 }
 
 .navbar {
     display: flex;
     height: 100px;
+    margin-bottom: 20px;
 }
 
 .navbar img {
@@ -19,7 +21,7 @@
 
 .nav {
     float: right;  
-    width: 100%;  
+    width: 100%;
 }
 
 .nav li {
@@ -27,6 +29,10 @@
     margin: auto 0.5em;
     display: inline;
     float: right;
+}
+
+.middle-text {
+    display: inline-block;
 }
 
 .background-color {
