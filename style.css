@@ -3,6 +3,13 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    margin: 0;
+    padding: 0;
+}
+
 p {
     font-size: 11px;
 }
@@ -28,7 +35,7 @@ p {
     width: 100%;
 }
 
-.nav li {
+.nav li, .nav input {
     text-align: right;
     margin: auto 0.7em;
     display: inline;
@@ -85,7 +92,6 @@ p {
     width: 14.6em;
     height: auto;
     text-align: center;
-    margin: auto 1em;
 }
 
 .bottom-imgs h4, .bottom-imgs p {
@@ -100,6 +106,19 @@ p {
     color: rgb(119, 119, 119);
 }
 
+.bottom-imgs1 {
+    margin-right: 5%;
+}
+
+.bottom-imgs2 {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.bottom-imgs3 {
+    margin-left: 5%;
+}
+
 .bottom-imgs h3 {
     border: 2px solid rgb(100, 100, 100);
     color: rgb(100, 100, 100);
@@ -107,6 +126,12 @@ p {
     margin-left: 2em;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.bottom a {
+    border: 2px solid rgb(100, 100, 100);
+    color: rgb(100, 100, 100);
+    margin: 0;
 }
 
 .bottom-imgs img {
